@@ -6,8 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import org.apache.catalina.User;
-
 import com.example.backenddevelopertest.model.LoginModel;
 
 import io.jsonwebtoken.Claims;
@@ -16,7 +14,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 
 public class JwtUtils implements Serializable {
 	
-	private static final long serialVersionUID  = -2550185165626007488L;
+	private static final long serialVersionUID  = -1L;
 	public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;
 	
 	public String JWT_TOKEN;
